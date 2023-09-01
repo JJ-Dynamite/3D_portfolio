@@ -19,10 +19,14 @@ import {
   starbucks,
   tesla,
   shopify,
+  brototype,
   carrent,
   jobit,
-  tripguide,
+  robinHood,
+  foodHub,
+  valen,
   threejs,
+  me,
 } from "../assets";
 
 export const navLinks = [
@@ -117,10 +121,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    // company_name: "Starbucks",
+    icon: me,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Mar 2019 - Oct 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +133,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full stack React Native Developer",
+    company_name: "Brototype",
+    icon: brototype,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2022 - Sept 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -141,32 +145,32 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,67 +202,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Valen (Beta)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Valen Aims to promote financial discipline through currency and product management features for users. Developed using Expo-Prebuild for cross-platform ease.Leveraged libraries like react-navigation, mobx for state, lottie for animations, expo-camera and expo-image-picker for media, native-base for UI, appwrite for backend, apisauce for APIs, stripe for payments, and metamask for cryptocurrency",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Appwrite",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tamagui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: valen,
+    source_code_link: "https://github.com/joelmulammoottil994/Valen",
   },
   {
-    name: "Job IT",
+    name: "Food Hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is a mobile application built using React Native. It includes a variety of third-party libraries for features such as navigation, maps, charts, and more. The app communicates with a backend API that is located at AWS.",
     tags: [
       {
-        name: "react",
+        name: "React Natiive",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Native Base",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: foodHub,
+    source_code_link: "https://github.com/joelmulammoottil994/fooddoor",
   },
   {
-    name: "Trip Guide",
+    name: "Robinhood Clone ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a React-based clone of the Robinhood trading platform, incorporating Material-UI for a polished interface, Axios for real-time data, Firebase for real-time updates and data management, Chart.js for dynamic charting",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Fire base",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: robinHood,
+    source_code_link: "https://github.com/joelmulammoottil994/tradingAppUsingReact",
   },
 ];
 
